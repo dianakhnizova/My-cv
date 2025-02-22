@@ -24,14 +24,16 @@ a:active {
   justify-content: center;
   flex-direction: column;
   max-width: 1440px;
-  background-color: #676127;
   margin: 0 auto;
+  gap: 40px;
+  background-color: white;
 }
 
 .header {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  background-color: #676127;
 }
 
 .header__photo {
@@ -86,13 +88,20 @@ a:active {
 .section {
   width: 100%;
   display: flex;
+  justify-content: center;
   flex-direction: column;
+  align-items: center;
   gap: 20px;
+  margin: 0 auto;
+  background-color: #676127;
 }
 
 .section__about {
+  width: 95%;
   display: flex;
   justify-content: center;
+  gap: 20px;
+  background-color: white;
 }
 
 .about__img-container {
@@ -105,6 +114,10 @@ a:active {
 }
 
 .about__title-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #676127;
   width: 50%;
 }
 
@@ -114,6 +127,7 @@ a:active {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  outline: 20px solid white;
 }
 
 .skills__photo-container {
@@ -132,6 +146,7 @@ a:active {
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  outline: 20px solid white;
 }
 
 .portfolio-container {
@@ -175,6 +190,7 @@ a:active {
 
 .footer {
   width: 100%;
+  background-color: #676127;
 }
 
 .footer__container {
