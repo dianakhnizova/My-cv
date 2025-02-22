@@ -38,9 +38,13 @@ a:active {
 
 .header__photo {
   display: flex;
+  height: 400px;
   justify-content: flex-end;
   align-items: center;
   flex-direction: column;
+  background-image: url(assets/a_bright_and_modern_coffee_shop_with_a_young_female_programmer_working_on_her_laptop_the_caf_is_fil_x2v1hlijt92dni371hy3_0.png);
+  background-position: center;
+  background-size: cover;
 }
 
 .header__menu {
