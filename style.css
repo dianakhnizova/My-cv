@@ -61,7 +61,7 @@ a:active {
   padding: 100px 0 0 0;
 }
 
-.button {
+.button-start {
   width: 200px;
   height: 60px;
   background-color: white;
@@ -76,14 +76,14 @@ a:active {
   transition: all 0.3s ease-in-out;
 }
 
-.button:hover {
+.button-start:hover {
   background: linear-gradient(145deg, #f0f0f0, #d9d9d9);
   box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.3),
     -8px -8px 16px rgba(255, 255, 255, 0.8);
   transform: scale(1.05);
 }
 
-.button:active {
+.button-start:active {
   box-shadow: inset 6px 6px 12px rgba(0, 0, 0, 0.2),
     inset -6px -6px 12px rgba(255, 255, 255, 0.7);
   background: linear-gradient(145deg, #e6e6e6, #ffffff);
