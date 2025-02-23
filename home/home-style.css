@@ -228,19 +228,59 @@ a:active {
 .section__skills {
   width: 100%;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 0 100px 120px;
+  gap: 120px;
+}
+
+.skills__title-container {
+  width: 400px;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background: white;
+  border-radius: 14px;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.063),
+    -4px 4px 14px rgba(0, 0, 0, 0.063), 0 6px 14px rgba(0, 0, 0, 0.051);
+  border: none;
+}
+
+.skills-title {
+  font-family: "Karla", sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  padding: 40px 0 0 0;
 }
 
 .skills__photo-container {
-  width: 100%;
+  width: 50%;
   display: flex;
   justify-content: center;
 }
 
+.skills-list {
+  font-family: "Karla", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  padding: 28px 0 40px 0;
+  list-style: none;
+}
+
+.skills-item {
+   padding-bottom: 10px;
+}
+
 .img-skills {
-  width: calc(100% / 3);
+  width: 60%;
+  height: 100%;
+  border-radius: 50%;
+  background: #f0f0f0;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.662),
+    4px 4px 20px rgba(0, 0, 0, 0.401), inset 8px 8px 28px rgba(0, 0, 0, 0.566),
+    inset 8px 8px 28px rgba(0, 0, 0, 0.566);
+  object-fit: cover;
 }
 
 .section__portfolio {
@@ -291,7 +331,7 @@ a:active {
   font-family: "Karla", sans-serif;
   font-size: 22px;
   font-weight: 400;
-  border-radius: 18px;
+  border-radius: 14px;
   border: 2px solid #ccc;
   box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.13),
     -6px -6px 12px rgba(255, 255, 255, 0.7);
