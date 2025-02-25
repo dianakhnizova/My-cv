@@ -184,7 +184,6 @@ a:active {
 
 .about__img-container {
   width: 40%;
-  padding: 0 0 0 90px;
 }
 
 .about__img {
@@ -365,7 +364,7 @@ a:active {
 }
 
 .project-content__1 {
-  background-image: url(/assets/ts.png);
+  background-image: url(/assets/Flux_Dev_A_minimalist_and_clean_cover_image_for_a_project_cont_1.jpeg);
   background-size: cover;
   background-position: center;
 }
@@ -383,7 +382,13 @@ a:active {
 }
 
 .project-content__4 {
-  background-image: url(/assets/img5.png);
+  background-image: url(/assets/Flux_Dev_A_festive_Christmas_shop_sign_with_the_text_Christmas_1.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+.project-content__5 {
+  background-image: url(/assets/a_young_brunette_woman_with_long_wavy_hair_standing_against_a_plain_white_background_she_is_smiling_4eww8dd36omrpiqumw01_0.png);
   background-size: cover;
   background-position: center;
 }
