@@ -30,7 +30,7 @@ a:active {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url(../assets/6.png);
+  background-image: url(./../assets/6.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
