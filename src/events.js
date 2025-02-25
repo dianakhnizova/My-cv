@@ -2,7 +2,7 @@ const start = () => {
   document.querySelector(".button-start")
     .addEventListener("click", () => {
       console.log("click");
-      window.location.href = "../home/home.html";
+      window.location.href = "home/home.html";
     });
 };
 
